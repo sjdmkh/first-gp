@@ -1,0 +1,202 @@
+.cont-gp1{
+    width: 100vw;
+    height: 35vh;
+    display: grid;
+    grid-template: repeat(1, 100fr) / repeat(3, 50fr);
+    grid-template-areas: "c1 c2 c3";
+
+}
+.c1{
+    margin: 2rem 0 2rem 10rem;
+
+}
+.c2{
+    width: 38rem;
+    height: 4rem;
+    margin: 0 9rem 2rem 0;
+}
+/*.c3{*/
+/*    width: 11rem;*/
+/*    height: 3.5rem;*/
+/*    font-family: sans-serif;*/
+/*    font-size: 1.2rem;*/
+/*    !*font-weight: bold;*!*/
+/*    background-color: #4848a2;*/
+/*    color: white;*/
+/*    margin: 2rem 18rem 1rem 2rem;*/
+/*}*/
+.c3{
+    width: 12rem;
+    height: 3.2rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 18rem 1rem 2rem;
+    background-color: #045ba8;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #045ba8;
+}
+.end-btn i{
+    float: right;
+}
+
+
+h4{
+    font-family: "Overpass", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+p{
+    margin: 0 0 1rem 0;
+    color: #7f7f7f;
+    font-family: "Overpass", Helvetica, Arial, sans-serif;
+
+}
+.cont-gp2{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(1, 100fr) / repeat(2, 50fr);
+    grid-template-areas: "d1 d2";
+
+}
+.d1{
+    width: 487px;
+    height: 650px;
+    margin: 1rem 0 2rem 10rem;
+
+}
+.d2{
+    width: 31rem;
+    height: 34rem;
+    margin: 4rem 2rem 2rem 0;
+}
+
+h2{
+    font-family: "Overpass", Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    text-align: right;
+    line-height: 50px;
+    letter-spacing: 0.1rem;
+}
+
+h5{
+    font-family: "Overpass", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    text-align: right;
+    line-height: 30px;
+}
+.p-gp2{
+    text-align: right;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.d3{
+    width: 11rem;
+    height: 3.2rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 2rem 1rem 20rem;
+    background-color: #11d5e8;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #11d5e8;
+}
+/*.end-btn1 i{*/
+/*    float: right;*/
+/*}*/
+
+.pricing-plans{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(1, 100fr) / repeat(4, 50fr);
+    grid-template-areas: "card1 card2 card3 card4";
+}
+@media screen and (max-width: 1280px){
+    .pricing-plans{
+        display: flex;
+    }
+}
+@media screen and (max-width: 400px){
+    .pricing-plans{
+        display: block;
+    }
+}
+
+.card1{
+    width: 15rem;
+    height: 32rem;
+    margin: 2rem 1rem 1rem 10rem;
+
+}
+@media screen and (max-width: 400px){
+    .card1{
+        margin: 2rem 1rem 1rem 1rem;
+    }
+}
+
+.card2{
+    width: 15rem;
+    height: 32rem;
+    margin: 2rem 0 1rem 2rem;
+}
+
+.card3{
+    width: 15rem;
+    height: 32rem;
+    margin: 2rem 0 1rem 2rem;
+
+}
+@media screen and (max-width: 400px){
+    .card3{
+        margin: 2rem 0 1rem 2rem;
+    }
+}
+
+.card4{
+    width: 15rem;
+    height: 32rem;
+    margin: 2rem 16rem 1rem 2rem;
+}
+@media screen and (max-width: 400px){
+    .card4{
+        margin: 2rem 0 1rem 2rem;
+    }
+}
+h6{
+    font-family: "Overpass", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    text-align: left;
+    margin: 3rem 0 2rem 0;
+    color: grey;
+}
+h4.pricing-plans{
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+ion-icon {
+    color: #0707a6;
+}
+.e3{
+    width: 12rem;
+    height: 3.2rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 2rem 1rem 4rem;
+    background-color: #045ba8;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #045ba8;
+}
+.end-btn3 i{
+    float: right;
+}
+.copyright{
+    margin-left: 10rem;
+    color: #808080;
+}
