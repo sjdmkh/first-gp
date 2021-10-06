@@ -1,30 +1,46 @@
+@media screen and (max-width: 400px) {
+    hr{
+        width: 60rem;
+    }
+}
+
+
 .cont-gp1{
-    width: 100vw;
-    height: 35vh;
+    width: 100rem;
+    height: 10rem;
     display: grid;
     grid-template: repeat(1, 100fr) / repeat(3, 50fr);
     grid-template-areas: "c1 c2 c3";
-
+    margin-bottom: 1rem;
 }
+@media screen and (max-width: 400px){
+    .cont-gp1{
+        display: inline-block;
+    }
+}
+
 .c1{
     margin: 2rem 0 2rem 10rem;
 
+}
+@media screen and (max-width: 400px){
+    .c1{
+        width: 8rem;
+        height: 8rem;
+        margin: 2rem 0 1rem 28rem;
+    }
 }
 .c2{
     width: 38rem;
     height: 4rem;
     margin: 0 9rem 2rem 0;
 }
-/*.c3{*/
-/*    width: 11rem;*/
-/*    height: 3.5rem;*/
-/*    font-family: sans-serif;*/
-/*    font-size: 1.2rem;*/
-/*    !*font-weight: bold;*!*/
-/*    background-color: #4848a2;*/
-/*    color: white;*/
-/*    margin: 2rem 18rem 1rem 2rem;*/
-/*}*/
+@media screen and (max-width: 400px){
+    .c2{
+        margin: 2rem 0 1rem 18rem;
+    }
+}
+
 .c3{
     width: 12rem;
     height: 3.2rem;
@@ -39,7 +55,14 @@
 .end-btn i{
     float: right;
 }
-
+@media screen and (max-width: 400px){
+    .c3 {
+        font-size: xx-large;
+        margin: 4rem 0 1rem 22rem;
+        width: 20rem;
+        height: 5rem;
+    }
+}
 
 h4{
     font-family: "Overpass", Helvetica, Arial, sans-serif;
@@ -56,12 +79,16 @@ p{
 
 }
 .cont-gp2{
-    width: 100vw;
-    height: 100vh;
+    width: 100rem;
+    height: 45rem;
     display: grid;
     grid-template: repeat(1, 100fr) / repeat(2, 50fr);
     grid-template-areas: "d1 d2";
-
+}
+@media screen and (max-width: 400px){
+    .cont-gp2{
+        display: inline-block;
+    }
 }
 .d1{
     width: 487px;
@@ -69,10 +96,24 @@ p{
     margin: 1rem 0 2rem 10rem;
 
 }
+@media screen and (max-width: 400px) {
+    .d1{
+        margin: 6rem 0 1rem 6rem;
+        width: 45%;
+        height: 40%;
+    }
+}
 .d2{
     width: 31rem;
     height: 34rem;
     margin: 4rem 2rem 2rem 0;
+}
+@media screen and (max-width: 400px) {
+    .d2{
+        margin: 1rem 0 1rem 20rem;
+        display: block;
+
+    }
 }
 
 h2{
@@ -82,6 +123,11 @@ h2{
     line-height: 50px;
     letter-spacing: 0.1rem;
 }
+@media screen and (max-width: 400px) {
+    h2{
+        /*margin: 4rem 0 1rem 1rem;*/
+    }
+}
 
 h5{
     font-family: "Overpass", Helvetica, Arial, sans-serif;
@@ -89,10 +135,24 @@ h5{
     text-align: right;
     line-height: 30px;
 }
+@media screen and (max-width: 400px) {
+    h5{
+        margin: 2rem 0 1rem 1rem;
+        font-size: 1.2rem;
+
+    }
+}
 .p-gp2{
     text-align: right;
     font-size: 1rem;
     line-height: 30px;
+}
+@media screen and (max-width: 400px) {
+    .p-gp2{
+        margin: 2rem 0 1rem 1rem;
+        font-size: 1.4rem;
+
+    }
 }
 .d3{
     width: 11rem;
@@ -105,25 +165,39 @@ h5{
     cursor: pointer;
     border: 1px solid #11d5e8;
 }
-/*.end-btn1 i{*/
-/*    float: right;*/
-/*}*/
+@media screen and (max-width: 400px) {
+    .d3{
+        margin: 2rem 0 1rem 14rem;
+        font-size: 2rem;
+        width: 18rem;
+        height: 5rem;
+    }
+}
+
+.titr3{
+    margin: 2rem 1rem 1rem 10rem;
+}
+@media screen and (max-width: 400px) {
+    .titr3{
+        margin: 4rem 0 16rem 20rem;
+        font-size: 10rem;
+        width: 18rem;
+        height: 5rem;
+    }
+}
 
 .pricing-plans{
-    width: 100vw;
-    height: 100vh;
+    width: 100rem;
+    height: 45rem;
     display: grid;
     grid-template: repeat(1, 100fr) / repeat(4, 50fr);
     grid-template-areas: "card1 card2 card3 card4";
+    margin: 4rem 0;
 }
-@media screen and (max-width: 1280px){
-    .pricing-plans{
-        display: flex;
-    }
-}
+
 @media screen and (max-width: 400px){
     .pricing-plans{
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -135,7 +209,7 @@ h5{
 }
 @media screen and (max-width: 400px){
     .card1{
-        margin: 2rem 1rem 1rem 1rem;
+        margin: 1rem 1rem 8rem 20rem;
     }
 }
 
@@ -143,6 +217,11 @@ h5{
     width: 15rem;
     height: 32rem;
     margin: 2rem 0 1rem 2rem;
+}
+@media screen and (max-width: 400px){
+    .card2{
+        margin: 1rem 1rem 8rem 20rem;
+    }
 }
 
 .card3{
@@ -153,7 +232,7 @@ h5{
 }
 @media screen and (max-width: 400px){
     .card3{
-        margin: 2rem 0 1rem 2rem;
+        margin: 1rem 1rem 8rem 20rem;
     }
 }
 
@@ -164,7 +243,94 @@ h5{
 }
 @media screen and (max-width: 400px){
     .card4{
-        margin: 2rem 0 1rem 2rem;
+        margin: 1rem 1rem 8rem 20rem;
+    }
+}
+
+.about1{
+    background-color: #f7f7f7;
+    margin: 6rem 0 2rem 0;
+    width: 95rem;
+    height: 25rem;
+}
+@media screen and (max-width: 400px){
+    .about1{
+        height: 46rem;
+    }
+}
+.about2{
+    align-items: center;
+    display: flex;
+    margin: 4rem 0 1rem 10rem;
+}
+@media screen and (max-width: 400px){
+    .about2{
+        margin: 1rem 1rem 2rem 22rem;
+        display: block;
+    }
+}
+.about21{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 400px){
+    .about21{
+        text-align: center;
+        display: block;
+        margin: 2rem 2rem 2rem 4rem;
+        width: 10rem;
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 400px){
+    .about22{
+        text-align: center;
+        display: block;
+        margin: 1rem 2rem 2rem 1rem;
+    }
+}
+.ch6{
+    margin-left: 41.5rem ;
+}
+@media screen and (max-width: 400px){
+    .ch6{
+        margin-left: 1rem;
+        font-size: large;
+    }
+}
+
+.ch4{
+    color: #045ba8;
+    margin-left: 38rem;
+}
+@media screen and (max-width: 400px){
+    .ch4{
+        align-items: center;
+        margin-left: -55rem;
+    }
+}
+.about3{
+    align-items: center;
+    display: flex;
+    margin: 1rem 0 1rem 10rem;
+}
+@media screen and (max-width: 400px){
+    .about3{
+        display: block;
+        margin: 2rem 1rem 2rem 14rem;
+        font-size: x-large;
+    }
+}
+.about31{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 400px){
+    .about31{
+        display: block;
+        margin: 1rem 1rem 4rem 12rem;
     }
 }
 h6{
@@ -176,7 +342,7 @@ h6{
     color: grey;
 }
 h4.pricing-plans{
-    margin: 1.5rem auto 1.5rem auto;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 ion-icon {
@@ -193,10 +359,58 @@ ion-icon {
     cursor: pointer;
     border: 1px solid #045ba8;
 }
+@media screen and (max-width: 400px){
+    .e3{
+        display: block;
+        margin: 1rem 1rem 4rem 12rem;
+        font-size: x-large;
+        width: 14rem;
+        height: 4rem;
+    }
+}
 .end-btn3 i{
     float: right;
 }
 .copyright{
+    font-family: sans-serif;
+    font-size: 1.2rem;
     margin-left: 10rem;
     color: #808080;
 }
+@media screen and (max-width: 400px){
+    .top1{
+        display: inline-block;
+        margin: 2rem 1rem 1rem 3rem;
+        font-size: x-large;
+        width: 12rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    .copyright{
+        display: inline-block;
+        margin: 2rem 1rem 1rem 26rem;
+        font-size: x-large;
+        width: 12rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 720px){
+    .top1{
+        display: inline-block;
+        margin: 2rem 1rem 1rem 3rem;
+        font-size: x-large;
+        width: 12rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 720px){
+    .copyright{
+        display: inline-block;
+        margin: 2rem 1rem 1rem 26rem;
+        font-size: x-large;
+        width: 12rem;
+        text-align: center;
+    }
+}
+
